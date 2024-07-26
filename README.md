@@ -4,4 +4,4 @@
 ### Estudiante:  Nicolas Quintero Cardona
 ### ID:  455359
 
-![Descripción de la imagen](hardware mapa conceptual.png)
+
