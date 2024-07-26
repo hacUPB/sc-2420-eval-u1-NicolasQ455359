@@ -4,6 +4,10 @@
 ### Estudiante:  Nicolas Quintero Cardona
 ### ID:  455359
 
-![imagen 1](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\hardware mapa conceptual.png)
-![Imagen 2](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\variables de arquitectura mapa conceptual.png)
-![Imagen 3](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\software mapa conceptual.png)
+## Mapa Conceptual
+
+![hardware](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\hardware mapa conceptual.png)
+
+![variables](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\variables de arquitectura mapa conceptual.png)
+
+![software](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\software mapa conceptual.png)
