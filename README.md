@@ -6,8 +6,8 @@
 
 ## Mapa Conceptual
 
-![hardware](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\hardwaremapaconceptual.png)
+![hardware](hardwaremapaconceptual.png)
 
-![variables](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\variablesdearquitecturamapaconceptual.png)
+![variables](variablesdearquitecturamapaconceptual.png)
 
-![software](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\softwaremapaconceptual.png)
+![software](softwaremapaconceptual.png)
