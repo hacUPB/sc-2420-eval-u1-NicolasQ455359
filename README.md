@@ -6,8 +6,8 @@
 
 ## Mapa Conceptual
 
-![hardware](hardware mapa conceptual.png)
+![hardware](hardwaremapaconceptual.png)
 
-![variables](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\variables de arquitectura mapa conceptual.png)
+![variables](variablesdearquitecturamapaconceptual.png)
 
-![software](c:\Users\Nicolas\siscomp_2024\sc-2420-eval-u1-NicolasQ455359\software mapa conceptual.png)
+![software](softwaremapaconceptual.png)
