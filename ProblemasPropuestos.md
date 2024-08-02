@@ -37,7 +37,7 @@ M=D
         
 ```
 
-Explicación del programa:
+## Explicación del programa:
 
 El programa comienza cargando el valor de RAM[0] en el registro D y luego lo almacena en RAM[1].
 
@@ -48,3 +48,17 @@ Si el valor no es 0, almacena el valor actual de RAM[0] en la dirección apuntad
 Decrementa el valor en RAM[0] y vuelve al inicio del loop.
 
 Cuando el valor en RAM[0] es 0, el programa salta a END, donde entra en un bucle infinito para detener la ejecución.
+
+## Como lo resolví: 
+
+Cargué el valor de RAM[0] (N) en el registro D y lo almacené en RAM[1].
+
+Bucle de Cuenta Regresiva:
+
+Almacené el valor de RAM[0] en la dirección actual apuntada por RAM[1].
+
+Se incrementa la dirección en RAM[1] para la siguiente posición.
+
+Se Decrementa el valor en RAM[0] y repetí el proceso hasta que RAM[0] llegara a 0.
+
+Usé una etiqueta END para saltar a un bucle infinito cuando RAM[0] alcanzara 0, terminando así el programa.
