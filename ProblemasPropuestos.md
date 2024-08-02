@@ -2,6 +2,7 @@
 
 ## SUMA DE LOS NÚMEROS PARES HASTA M
 
+```asm
 @0
 D=M          
 @N
@@ -42,3 +43,4 @@ M=M+1
 (END)
 @END
 0;JMP        
+```
