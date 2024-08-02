@@ -35,7 +35,6 @@
     0;JMP
 
 // Explicación
-/*
 En este ejercicio, se implementa una suma acumulativa mediante el uso de bucles y condicionales:
 
 1. Inicialización:
@@ -52,5 +51,3 @@ En este ejercicio, se implementa una suma acumulativa mediante el uso de bucles 
    - Cuando R1 llega a 0, el programa salta a la etiqueta (END), finalizando el bucle.
    - Se utiliza un bucle infinito para detener el programa.
 
-Este ejercicio demuestra cómo implementar operaciones aritméticas básicas utilizando estructuras de control como bucles y condicionales en ensamblador HACK, facilitando la comprensión de la manipulación directa de la memoria y registros del CPU.
-*/
