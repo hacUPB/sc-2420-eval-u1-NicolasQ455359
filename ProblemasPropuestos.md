@@ -1,46 +1,38 @@
 # EJERCICIO 1
 
-## SUMA DE LOS NÚMEROS PARES HASTA N
+## CUENTA REGRESIVA DESDE N HASTA 0 
+
+### Pruebas
 
 ```asm
-@0
-D=M          
-@N
-M=D          
-@1
-M=0          
-@2
-M=0          
+@0       
+D=M       
+@1        
+M=D       
 
-@N
-D=M
-@i
-D=D-M        
-@END
-D;JLT        
+(LOOP)
+    @0    
+    D=M   
+    @END  
+    D;JEQ 
 
-@i
-D=M
-@2
-D=D%2
-@ADD_SUMM
-D;JEQ        
+    @1    
+    A=M   
+    M=D   
+    @1    
+    M=M+1 
 
-@i
-M=M+1
-@LOOP
-0;JMP
+    @0    
+    D=M   
+    D=D-1 
+    @0    
+    M=D   
 
-@i
-D=M
-@1
-M=D+M        
-@i
-M=M+1        
-@LOOP
-0;JMP
+    @LOOP 
+    0;JMP 
 
 (END)
-@END
-0;JMP        
+    @END  
+    0;JMP 
+        
 ```
