@@ -43,19 +43,14 @@ M=D
 Explicación:
 En este ejercicio, se realizan las siguientes operaciones:
 
-Inicialización:
+1.Los valores desde las posiciones de memoria 0, 1 y 2 se cargan en los registros temporales R0, R1 y R2 respectivamente.
 
-Los valores desde las posiciones de memoria 0, 1 y 2 se cargan en los registros temporales R0, R1 y R2 respectivamente.
-Suma y resta:
-
-Se suman los valores de R0 y R1 y se almacena el resultado en D.
+2.Se suman los valores de R0 y R1 y se almacena el resultado en D.
 Luego, se resta el valor de R2 del resultado previo almacenado en D.
-Condicional:
 
-Se verifica si el resultado almacenado en D es mayor o igual a 0. Si es así, salta a la etiqueta LOOP.
-Resultado:
+3.Se verifica si el resultado almacenado en D es mayor o igual a 0. Si es así, salta a la etiqueta LOOP.
 
-Si el resultado es negativo, se almacena 0 en la posición de memoria 3 y se salta al final.
+4.Si el resultado es negativo, se almacena 0 en la posición de memoria 3 y se salta al final.
 Si el resultado es positivo, se almacena el valor de D en la posición de memoria 3.
 
 ## Ejercicio 2 
@@ -100,23 +95,16 @@ MD=M-1
 Explicación:
 En este ejercicio, se implementa una suma acumulativa mediante el uso de bucles y condicionales:
 
-Inicialización:
-
-Se cargan los valores desde las posiciones de memoria 0 y 1 en los registros temporales R0 y R1.
+1.Se cargan los valores desde las posiciones de memoria 0 y 1 en los registros temporales R0 y R1.
 Se inicializan la posición 2 y R2 en 0 para almacenar el resultado acumulativo.
 
-Bucle de Suma Acumulativa:
+2.Se utiliza la etiqueta (LOOP) para marcar el inicio del bucle.
 
-Se utiliza la etiqueta (LOOP) para marcar el inicio del bucle.
-
-Condicional:
-
-Se verifica si R1 (contador) es igual a 0; si es así, salta a la etiqueta (END).
+3.Se verifica si R1 (contador) es igual a 0; si es así, salta a la etiqueta (END).
 Si R1 no es 0, se suma el valor de R0 al acumulador en la posición 2.
 Se decrementa el valor en R1 y se repite el bucle.
-Terminación del Bucle:
 
-Cuando R1 llega a 0, el programa salta a la etiqueta (END), finalizando el bucle.
+4.Cuando R1 llega a 0, el programa salta a la etiqueta (END), finalizando el bucle.
 Se utiliza un bucle infinito para detener el programa.
 
 ## Ejercicio 3
@@ -201,20 +189,15 @@ M=1
 Explicación:
 En este ejercicio, se realizan las siguientes operaciones:
 
-Inicialización:
+1.Los valores desde las posiciones de memoria 0, 1 y 2 se cargan en los registros temporales R0, R1 y R2 respectivamente.
 
-Los valores desde las posiciones de memoria 0, 1 y 2 se cargan en los registros temporales R0, R1 y R2 respectivamente.
-Bucle de Suma Acumulativa:
-
-Utilizamos la etiqueta (LOOP) para marcar el inicio del bucle.
+2.Utilizamos la etiqueta (LOOP) para marcar el inicio del bucle.
 Se verifica si R1 (contador) es igual a 0; si es así, salta a la etiqueta (END_LOOP).
 Si R1 no es 0, se suma el valor de R0 al acumulador en la posición 3.
 Decrementamos el valor en R1 y repetimos el bucle.
-Resultado de la Resta:
 
-Después del bucle, se resta el valor de R2 del acumulador en la posición 3 y se almacena el resultado en la posición 4.
-Condicional:
+3.Después del bucle, se resta el valor de R2 del acumulador en la posición 3 y se almacena el resultado en la posición 4.
 
-Se verifica si el resultado en la posición 4 es mayor que 5.
+4.Se verifica si el resultado en la posición 4 es mayor que 5.
 Si es mayor que 5, se almacena 1 en la posición 5.
 Si no es mayor que 5, se almacena 0 en la posición 5.
