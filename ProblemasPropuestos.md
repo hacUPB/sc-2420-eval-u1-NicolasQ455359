@@ -1,5 +1,69 @@
 # EJERCICIO 1
 
+## INTENTO DE HACER SUMA DE LOS NUMEROS PARES HASTA N
+```asm
+@0
+D=M         
+@N
+M=D         
+@1
+M=0         
+@2
+M=0         
+
+
+(LOOP)
+@N
+D=M
+@i
+D=D-M  
+@END
+D;JLT  
+
+
+@i
+D=M
+@IS_ODD
+D=D-1  
+@CHECK_PARITY
+D;JGE
+
+
+@i
+D=M
+@1
+M=M+D 
+@i
+M=M+1    
+@LOOP
+0;JMP
+
+(CHECK_PAR)
+@i
+D=M
+@1
+D=D-1    
+@IS_PAR
+D;JLT  
+
+@i
+D=M
+@1
+M=M+D  
+@i
+M=M+1  
+@LOOP
+0;JMP
+
+(IS_PAR)
+@END
+0;JMP 
+
+(END)
+@END
+0;JMP
+```
+
 ## CUENTA REGRESIVA DESDE N HASTA 0 
 
 ### Pruebas
