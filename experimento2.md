@@ -12,8 +12,8 @@ primer intento, solo aparecieron dos lineas y al añadir la segunda, bajó un po
 
 Se Configuró el puntero y el contador para cada línea horizontal.
 
-DIBUJAR1, DIBUJAR2, DIBUJAR3: Configura el puntero de la pantalla y el contador para cada línea horizontal.
-DIBUJAR1_LOOP, DIBUJAR2_LOOP, DIBUJAR3_LOOP: Usa un bucle para encender los píxeles horizontalmente hasta completar la línea. Mueve el puntero y decrementa el contador en cada iteración.
+Se Configuró el puntero de la pantalla y el contador para cada línea horizontal.
+Se usa un bucle para encender los píxeles horizontalmente hasta completar la línea. Se mueve el puntero y decrementa el contador en cada iteración.
 
 Se usan direcciones de pantalla diferentes (16384, 8192, 12288) para dibujar las líneas en distintas posiciones verticales.
 
